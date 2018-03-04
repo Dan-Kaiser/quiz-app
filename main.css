@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+button, input[type="text"] {
+  padding: 5px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.container {
+/*border: 1px solid gray; */
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.answers-container {
+	min-height: 200px;
+	padding: 8px;
+/*  border: 1px solid gray; */
+}
+
+.answers-container button{
+
+	width: 45%;
+	margin-left: 8px; 
+	margin-top: 8px; 
+}
+
