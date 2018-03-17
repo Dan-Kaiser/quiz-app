@@ -12,21 +12,25 @@
 
 <body>
 	<div class="container">
-		<h1>Quiz app</h1>
+		<h1>Quiz app - Norwegian</h1>
 
-		<button type="submit">Start Quiz</button>
+		<button class="js-start" type="button">Start Quiz</button>
 
-		<h2 class="question-prompt">Example Question?</h2>
+		<h2 class="js-question-prompt question-prompt hidden">Example Question?</h2>
 
-		<div class="answers-container">
-			<button type="submit">Answer1</button>
-			<button type="submit">Answer2</button>
-			<button type="submit">Answer3</button>
-			<button type="submit">Answer4</button>
+		<button class="next-button hidden" type="button">Next</button>
+
+		<div class="answers-container js-answers-container hidden">
+			<button type="button" id="0">Answer1</button>
+			<button type="button" id="1">Answer2</button>
+			<button type="button" id="2">Answer3</button>
+			<button type="button" id="3">Answer4</button>
+			<div class="correct-answer js-correct-answer" id="correction"></div>
 		</div>
 		<div class="results">
-			<p>0 of 0 correct</p>
-			<span>question 0</span>
+
+			<p class="js-ratio-results">0 of 0 correct</p>
+			<span class="js-question-number">question 0</span>
 		</div>
 	</div>
 	
